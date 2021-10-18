@@ -3,7 +3,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class testAudiobook {
+public class audiobookTest {
 
     @Test
     public void testUse(){

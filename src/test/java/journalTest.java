@@ -3,7 +3,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class testJournal {
+public class journalTest {
 
     @Test
     public void testReturnItem(){

@@ -11,4 +11,16 @@ public class paperTest {
         assertEquals("Incorrect output","Flicks through pages...",a.use());
     }
 
+    @Test
+    public void testGetAuthor() {
+        Paperback b = new Paperback("blue","jeff","7");
+        assertEquals("Incorrect output","jeff",b.getAuthor());
+    }
+
+    public void testSetAuthor(){
+        Paperback c = new Paperback("red","robbie","8");
+        c.setISBN("alan");
+        assertEquals("Incorrect output","alan",c.getAuthor());
+    }
+
 }

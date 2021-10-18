@@ -25,5 +25,5 @@ public abstract class Paper extends Physical{
     public void setAuthor(String author) {
         Author = author;
     }
-    
+
 }

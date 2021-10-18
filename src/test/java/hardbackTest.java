@@ -1,4 +1,5 @@
 import company.Hardback;
+import company.Paperback;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -28,4 +29,14 @@ public class hardbackTest {
         assertEquals("incorrect output","You have borrowed a hardback book",p4.borrowItem());
     }
 
+
+    @Test
+    public void testToString(){
+        Hardback p5= new Hardback("yes","hilda","6");
+        assertEquals("Incorrect message",  p5.toString(), new String("Hardback{" +
+                " Name= "+p5.getName()+'\''+
+                " Author= "+p5.getAuthor()+'\''+
+                " ISBN='" + p5.getISBN() + '\'' +
+                '}'));
+    }
 }

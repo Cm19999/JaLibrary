@@ -19,7 +19,7 @@ public class paperTest {
 
     public void testSetAuthor(){
         Paperback c = new Paperback("red","robbie","8");
-        c.setISBN("alan");
+        c.setAuthor("alan");
         assertEquals("Incorrect output","alan",c.getAuthor());
     }
 

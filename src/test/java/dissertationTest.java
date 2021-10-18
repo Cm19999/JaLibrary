@@ -1,4 +1,5 @@
 import company.Dissertation;
+import company.Hardback;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -26,5 +27,14 @@ public class dissertationTest {
     public void testBorrow(){
         Dissertation p4= new Dissertation("borrowed","ted");
         assertEquals("incorrect output","You have borrowed a dissertation",p4.borrowItem());
+    }
+
+    @Test
+    public void testToString(){
+        Dissertation p5= new Dissertation("yes","hilda");
+        assertEquals("Incorrect message",  p5.toString(), new String("Dissertation{" +
+                " Name= "+p5.getName()+'\''+
+                " Author= "+p5.getAuthor()+'\'' +
+                '}'));
     }
 }

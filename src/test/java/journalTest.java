@@ -1,3 +1,4 @@
+import company.Hardback;
 import company.Journal;
 import org.junit.Test;
 
@@ -26,5 +27,14 @@ public class journalTest {
     public void testBorrow(){
         Journal p4= new Journal("borrowed","ted");
         assertEquals("incorrect output","You have borrowed a journal",p4.borrowItem());
+    }
+
+    @Test
+    public void testToString(){
+        Journal p5= new Journal("Nope","hillary");
+        assertEquals("Incorrect message",  p5.toString(), new String("Journal{" +
+                " Name= "+p5.getName()+'\''+
+                " Author= "+p5.getAuthor()+'\''+
+                '}'));
     }
 }

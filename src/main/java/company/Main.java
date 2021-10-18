@@ -9,7 +9,7 @@ public class Main {
         ArrayList<LibraryArtifact> totalLibraryCollection = new ArrayList<>();
 
 
-        Hardback p1 = new Hardback("DVD","Dave","1");
+        /*Hardback p1 = new Hardback("DVD","Dave","1");
         System.out.println(p1.use());
         System.out.println(p1.store());
         totalLibraryCollection.add(p1.returnItem());
@@ -22,7 +22,7 @@ public class Main {
 
         Paperback p2 = new Paperback("yep","Geoff","2");
         totalLibraryCollection.add(p2.returnItem());
-        System.out.println(totalLibraryCollection);
+        System.out.println(totalLibraryCollection);*/
 
     }
 }

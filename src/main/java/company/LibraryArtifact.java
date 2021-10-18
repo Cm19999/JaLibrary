@@ -12,10 +12,6 @@ public abstract class LibraryArtifact {
 
     protected LibraryArtifact(String name){this.name = name;}
 
-
-    public abstract String use();
-
-
     public String getName() {
         return name;
     }

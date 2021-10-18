@@ -8,7 +8,7 @@ public abstract class Book extends Paper implements Borrow{
         super(name, Author);
         this.ISBN=ISBN;
     }
-    
+
     public String read(){
         return "Wow this is a good book";
     }

@@ -1,0 +1,16 @@
+company\Laptop.class
+company\Journal.class
+company\PC.class
+company\Computer.class
+company\Paper.class
+company\Digital.class
+company\Borrow.class
+company\Book.class
+company\Dissertation.class
+company\LibraryArtifact.class
+company\Audiobook.class
+company\Physical.class
+company\Document.class
+company\Hardback.class
+company\Paperback.class
+company\Main.class

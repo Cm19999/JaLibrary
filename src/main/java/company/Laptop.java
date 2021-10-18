@@ -3,7 +3,7 @@ package company;
 public class Laptop extends Computer implements Borrow{
 
 
-    Laptop(String name){
+    public Laptop(String name){
         super(name);
     }
 

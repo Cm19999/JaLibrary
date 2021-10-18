@@ -1,5 +1,6 @@
-package company;
+package companyTest;
 
+import company.Hardback;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

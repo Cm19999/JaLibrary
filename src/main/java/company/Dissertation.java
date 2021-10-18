@@ -3,7 +3,7 @@ package company;
 public class Dissertation extends Document implements Borrow{
 
 
-    Dissertation(String name,String Author){
+    public Dissertation(String name, String Author){
             super(name,Author);
         }
 

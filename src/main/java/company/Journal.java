@@ -2,7 +2,7 @@ package company;
 
 public class Journal extends Document implements Borrow{
 
-    Journal(String name, String Author){
+    public Journal(String name, String Author){
         super(name,Author);
     }
 

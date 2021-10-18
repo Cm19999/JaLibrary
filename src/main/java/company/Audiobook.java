@@ -2,7 +2,7 @@ package company;
 
 public class Audiobook extends Digital{
 
-    Audiobook(String name){
+    public Audiobook(String name){
         super(name);
     }
 

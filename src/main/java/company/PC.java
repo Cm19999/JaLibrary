@@ -2,7 +2,7 @@ package company;
 
 public class PC extends Computer{
 
-    PC(String name){
+    public PC(String name){
         super(name);
     }
 

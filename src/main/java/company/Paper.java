@@ -3,7 +3,6 @@ package company;
 public abstract class Paper extends Physical{
 
     private String Author;
-    private int pages;
 
     protected Paper(String name, String[] Author) {
         super(name);
@@ -13,7 +12,6 @@ public abstract class Paper extends Physical{
         super(name);
         this.Author=Author;
     }
-
 
     public String use(){
         return  "Flicks through pages...";
@@ -27,8 +25,5 @@ public abstract class Paper extends Physical{
     public void setAuthor(String author) {
         Author = author;
     }
-
-    public int getPages() {return pages;}
-
-    public void setPages(int pages) {this.pages = pages;}
+    
 }

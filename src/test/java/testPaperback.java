@@ -1,5 +1,3 @@
-package companyTest;
-
 import company.Paperback;
 import org.junit.Test;
 

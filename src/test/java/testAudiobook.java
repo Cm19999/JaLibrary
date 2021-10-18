@@ -1,5 +1,3 @@
-package companyTest;
-
 import company.Audiobook;
 import org.junit.Test;
 

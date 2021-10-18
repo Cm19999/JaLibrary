@@ -1,5 +1,3 @@
-package companyTest;
-
 import company.Journal;
 import org.junit.Test;
 

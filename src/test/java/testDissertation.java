@@ -1,5 +1,3 @@
-package companyTest;
-
 import company.Dissertation;
 import org.junit.Test;
 

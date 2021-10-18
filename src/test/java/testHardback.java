@@ -1,5 +1,3 @@
-package companyTest;
-
 import company.Hardback;
 import org.junit.Test;
 

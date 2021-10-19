@@ -13,7 +13,6 @@ public abstract class Paper extends Physical{
         return  "Flicks through pages...";
     }
 
-
     public String getAuthor() {
         return Author;
     }
